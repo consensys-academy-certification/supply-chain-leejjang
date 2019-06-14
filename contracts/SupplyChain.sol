@@ -32,7 +32,6 @@ contract SupplyChain {
 	// Create an event to log all state changes for each item.
 	event log(uint itemId, State state);
 
-
 	address owner;
 
 	constructor () public {
